@@ -2,11 +2,11 @@ numbers = [1, 2, 3, 4 ,5 ,6 ,7, 8, 9, 10]
 even_numbers = [number for number in numbers if number % 2 ==0]
 print(even_numbers)
 
-odd_numberrs = [number for number in numbers if number %2 !=0]
-print(odd_numberrs)
+odd_numbers = [number for number in numbers if number %2 !=0]
+print(odd_numbers)
 
 print("---------------------------------------")
-
+#taking the item that contains the letter "n" in the list
 fruit_list = ["apple", "banana", "cherry", "kiwi", "mango"]
 new_fruitlist = [x for x in fruit_list if "n" in x]
 print(new_fruitlist)

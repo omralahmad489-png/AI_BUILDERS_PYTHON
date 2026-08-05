@@ -32,4 +32,3 @@ print(my_dic)
 my_dic.pop("age")
 print(my_dic)
 
-print(my_dic["gender"])
